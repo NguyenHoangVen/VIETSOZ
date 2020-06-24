@@ -1,0 +1,71 @@
+#wp-content .title{
+    border-bottom: none;
+}
+#wp-content .title h1{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #1f1f1f;
+    padding-bottom: 28px;
+}
+#content img{
+	padding-bottom: 28px;
+}
+#content .post-detail p{
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+#content .admin{
+	font-size: 15px;
+	color: #000000;
+}
+#wp-comment .sort select{
+	background:#f6f7f9;
+
+}
+.comment{
+    border-bottom: 1px solid #dddfe3;
+    border-top: 1px solid #dddfe3;
+    margin-top: 5px;
+    padding: 20px 0px 20px 0px;
+
+}
+#wp-comment .comment i{
+    background: white;
+    font-size: 25px;
+}
+#wp-comment input{
+     width: 750px;
+    padding: 15px;
+    margin-left: 0px;
+    border: 1px solid #dddfe3;
+}
+/*STYLE SLIDER*/
+
+#wp-slider{
+	margin-top: 70px;
+}
+#wp-slider .title {
+    font-size: 21px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #01a050;
+    color: #1f1f1f;
+}
+#slider .owl-carousel .post-infor{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #1f1f1f;
+}
+#slider{
+	margin-top: 25px;
+}
+#slider .owl-carousel a:hover{
+	color: #01a050;
+}
+#post-sidebar .title{
+    border-bottom: 1px solid #01a050 !important;
+}

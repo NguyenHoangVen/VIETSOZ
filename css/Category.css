@@ -1,0 +1,170 @@
+#header{
+	margin-bottom: 0px;
+}
+#diagram{
+	background: #f3f3f3;
+}
+#wrapper #diagram .fl-left{
+    font-weight: 500;
+    padding-right: 25px;
+    position: relative;
+}
+#wrapper #diagram p{
+    font-size: 11px;
+    padding: 5px 0px 5px 0px;
+}
+ #diagram p.fl-left:after{
+    font-family: FontAwesome;
+    content: "\f105";
+    position: absolute;
+    font-size: 11px;
+    padding-left: 10px;
+}
+#diagram{
+	margin-bottom: 30px;
+}
+#cover-category .post{
+    width: 795px;
+    padding-right: 0px;
+/*    margin-bottom: 30px;*/
+}
+.post-cover-category  .post-thumb{
+    width: 405px;
+    height: 270px;
+    overflow: hidden;
+    display: block;
+/*    margin-right: 30px;*/
+}
+ .post-cover-category  .post-thumb img{
+	width: 100%;
+	height: auto;
+}
+.post-cover-category  .post-decs,.post-cover-category .post-title{
+    width: 361px;
+    float: right;
+}
+.post-cover-category  .post-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 20px;
+    display: block;
+}
+.post-cover-category  .post-decs{
+	font-size: 15px;
+	line-height: 27px;
+}
+.post-cover-category {
+    margin-bottom: 30px;
+}
+  .post-left, .post-right{
+	width: 390px;
+}
+.list-post-cover-category .post-right{
+	padding-left: 20px;
+}
+ .list-post-cover-category .post-left{
+ 	margin-right: 14px;
+ }
+ 
+.list-post-cover-category .post-thumb{
+	width: 120px;
+	height: 76px;
+	overflow: hidden;
+    margin-right: 20px;
+}
+.list-post-cover-category .post-thumb img{
+	width: 100%;
+	height: auto;
+}
+.list-post-cover-category li{
+    margin-bottom: 20px;
+}
+.list-post-cover-category .post-title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000000;
+}
+.list-post-cover-category li:hover a{
+	color: #01a050;
+}
+#cover-category{
+    border-bottom: 1px solid #01a050;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+/*STYLE POST OLD*/
+#post-old .list-post-old .post-thumb{
+    width: 250px;
+    height: 145px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+#post-old .list-post-old .post-thumb img{
+	width: 100%;
+	height: auto;
+}
+#post-old .list-post-old li{
+    margin-bottom: 35px;
+}
+#post-old .list-post-old .post-title{
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    display: block;
+    margin-bottom: -14px;
+    border-bottom: none;
+}
+#post-old .list-post-old .post-title:hover{
+		color: #01a050;
+}
+#post-old .list-post-old .post-decs{
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 5px;
+}
+#post-old .list-post-old .date{
+	position: relative;
+    padding-left: 20px;
+    color: #555;
+}
+#post-old .list-post-old .date:before{
+    font-family: FontAwesome;
+    content: "\f017";
+    font-size: 14px;
+    position: absolute;
+    left: 0px;
+}
+/*STYLE PAGING*/
+#paging {
+    width: 270px;
+    height: 55px;
+    margin-left: 325px;
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+#paging .title{
+	font-size: 14px;
+    border-bottom: none;
+}
+#paging ul li{
+	float: left;
+}
+#paging ul li a{
+    padding: 8px 13px;
+    border: 1px solid #dedede;
+    margin-left: 5px;
+    color: #454545;
+}
+#paging ul li a.icon:before{
+	font-family: FontAwesome;
+	content: "\f054";
+	font-size: 14px;
+}
+#paging li a:hover{
+	background: #01a050;
+	color: white;
+}
